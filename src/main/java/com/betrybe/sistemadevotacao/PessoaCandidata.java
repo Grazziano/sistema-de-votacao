@@ -1,10 +1,22 @@
 package com.betrybe.sistemadevotacao;
 
+/**
+ * Classe para objetos do tipo PessoaCandidata, onde serão contidos, valores e métodos para o
+ * mesmo.
+ *
+ * @author Grazziano Fagundes
+ */
 public class PessoaCandidata extends Pessoa {
 
   private int numero;
   private int votos;
 
+  /**
+   * {@summary <p> constructor. <p/>}
+   *
+   * @param nome   string
+   * @param numero integer
+   */
   public PessoaCandidata(String nome, int numero) {
     super.setNome(nome);
     this.numero = numero;
