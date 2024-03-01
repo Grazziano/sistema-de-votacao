@@ -76,7 +76,7 @@ public class GerenciamentoVotacao implements GerenciamentoVotacaoInterface {
             "Nome: " + pessoasCandidatas.get(i).getNome() + " - " + pessoasCandidatas.get(i)
                 .getVotos() + " votos ( " + Math.round(
                 ((double) pessoasCandidatas.get(i).getVotos() / cpfsComputados.size()) * 100)
-                + " )\n");
+                + "% )\n");
       }
 
       System.out.println("Total de votos: " + cpfsComputados.size());
