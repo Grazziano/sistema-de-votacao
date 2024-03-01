@@ -1,5 +1,10 @@
 package com.betrybe.sistemadevotacao;
 
-public class PessoaEleitora{
+/**
+ * Classe para objetos do tipo PessoaEleitora.
+ *
+ * @author Grazziano Fagundes
+ */
+public class PessoaEleitora {
 
 }
